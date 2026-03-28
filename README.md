@@ -9,7 +9,15 @@ Personal academic website (English), hosted on [GitHub Pages](https://pages.gith
 1. Add **`personal/profile.jpg`** (sidebar photo; small headshot works best).
 2. Add **`personal/academic_cv.pdf`** (used on the CV page for embed + download).
 
-Then open `index.html` in a browser or push this folder to the `giorgiodini.github.io` repository.
+Then open `index.html` in a browser or push this folder to GitHub:
+
+```bash
+cd giorgiodini.github.io
+git remote add origin https://github.com/giorgiodini/giorgiodini.github.io.git
+git push -u origin main
+```
+
+In the repository on GitHub: **Settings → Pages** → deploy from branch **`main`**, folder **`/ (root)`**.
 
 ## Edit content
 
