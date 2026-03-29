@@ -265,6 +265,10 @@ header .tagline {
 .contact-footer-icons li {
   margin: 0;
 }
+/* Must follow .contact-footer-icons so flex does not override .show-mobile-only on desktop */
+ul.header-contact-icons.contact-footer-icons.show-mobile-only {
+  display: none;
+}
 .contact-footer-icon-link {
   display: inline-flex;
   align-items: center;
@@ -497,7 +501,7 @@ footer a { font-weight: 500; }
   .show-mobile-only:not(ul) {
     display: block;
   }
-  ul.header-contact-icons.show-mobile-only {
+  ul.header-contact-icons.contact-footer-icons.show-mobile-only {
     display: flex;
   }
   .contact-footer {
