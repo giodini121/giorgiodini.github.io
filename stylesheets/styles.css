@@ -180,7 +180,8 @@ hr {
   color: var(--color-primary);
 }
 .news-block ul { margin: 0; padding-left: 1.2rem; }
-.news-block li { margin-bottom: 0.5rem; }
+.news-block li { margin-bottom: 0.85rem; }
+.news-block li:last-child { margin-bottom: 0; }
 .paper {
   margin-bottom: 1.5rem;
   padding-bottom: 1.25rem;
